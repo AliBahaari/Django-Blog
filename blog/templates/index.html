@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  {% for post in posts %}
+    <div class="post-container">
+      <h2><a href="/{{ post.id }}" target="blank">{{ post.title }}</a></h2>
+      <p>{{ post.preface }}</p>
+      <a href="/{{ post.id }}" target="blank" class="more-link">بیشتر بخوانید...</a>
+    </div>
+    <div class="separator-line"></div>
+  {% endfor %}
+{% endblock %}  
