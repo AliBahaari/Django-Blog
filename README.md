@@ -13,7 +13,7 @@ A blog CMS written by Django and Python.
 
 After cloning:
 ```bash
-cd myBlog
+cd Django-Blog
 python manage.py runserver
 ```
 
